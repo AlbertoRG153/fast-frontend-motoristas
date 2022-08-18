@@ -1,0 +1,374 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9decef;
+    color: #06283D;
+}
+
+#incio {
+    background-color: #168b92;
+    height: 150vh;
+}
+
+#food {
+    margin-right: auto;
+    margin-left: auto;
+    width: 60px;
+}
+
+#inicioHam {
+    width: 230px;
+}
+
+#ayuda {
+    color: #06283D;
+    font-size: 13px;
+    float: right;
+    text-decoration: none;
+}
+
+#ayuda:hover{
+    color: #06283D;
+    text-decoration: underline;
+}
+
+.datos {
+    background-color: #a1d8db;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    width: 375px;
+    height: 812px;
+}
+
+.datos label { 
+    font-weight: 950;
+    color: #06283D;
+}
+
+.datos h1 { 
+    font-size: 50px; 
+    font-weight: 950;
+    color: #06283D;
+}
+
+.datos h2 { 
+    font-size: 30px; 
+    font-weight: 600;
+    color: #06283D;
+}
+
+.datos h3 { 
+    font-size: 22px; 
+    font-weight: 600;
+    color: #06283D;
+}
+
+
+.datos h4 { 
+    font-size: 15px; 
+    font-weight: 600;
+    color: #06283D;
+}
+
+.btn-outline-success {
+    background-color: #1cb68dd8!important;
+    color: #fff!important;
+    border-color:#9ADACA!important;
+    border-radius: 10px!important;
+    width: 102px;
+    font-weight: 800;
+}
+
+.btn-outline-success:hover {
+    background-color: #1CB68E!important;
+    border-color:#1CB68E!important;
+    border-radius: 10px;
+}
+
+
+.btn-2 {
+    background-color: #FFF!important;
+    color: #06283D!important;
+    border-color:#06283D!important;
+    border-radius: 10px!important;
+    width: auto;
+    font-weight: 800;
+}
+
+.btn-2:hover {
+    background-color: #FFF!important;
+    border-color:#06283D!important;
+    border-radius: 10px;
+}
+
+#inicio-logo {
+    background-color: #1CB68E;
+    height: 53px;
+}
+
+.logo-fst {
+    width: 55px;
+    height: 50px;
+    border-radius: 15px;
+    color: #011b1c;
+    background-color: #06283D;
+    display: flex;
+    margin-left: auto;
+}
+
+.boton-log {
+    border-radius: 15px;
+}
+
+.tam-boton {
+    margin-left: auto;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+
+.img-orden {
+    border-radius: 100%;
+}
+
+.detalles-img {
+    width: 375px;
+    height: 360px;
+}
+
+.tarjeta {
+    background-color: #dff6fe;
+    color: #06283D;
+    border-radius: 25px;
+}
+
+.ordenes {
+    background-color: #9ADACA!important;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+    width: 375px;
+    height: 812px;
+}
+
+.ordenes p { 
+    font-weight: 950;
+    color: #06283D;
+}
+
+.ordenes h1 { 
+    font-size: 40px; 
+    font-weight: 950;
+    color: #06283D;
+}
+
+.ordenes h2 { 
+    font-size: 30px; 
+    font-weight: 950;
+    color: #06283D;
+}
+
+.ordenes h3 { 
+    font-size: 23px; 
+    font-weight: 950;
+    color: #06283D;
+}
+
+.ordenes h4 { 
+    font-size: 18px; 
+    font-weight: bolder;
+    color: #06283D;
+}
+
+.ordenes h5 { 
+    font-size: 15px; 
+    font-weight: bolder;
+    color: #fff;
+}
+
+
+.icon {
+    background-color: #dff6fe!important;
+    color: #1CB68E;
+    width: 22px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.btn-3 {
+    background-color: #1CB68E!important;
+    color: #fff!important;
+    border-color:#2a044b!important;
+    border-radius: 10px!important;
+    width: 225px;
+    font-weight: 800;
+}
+
+.btn-3:hover {
+    background-color: #1cb68dd8!important;
+    border-color:#dff6fe!important;
+}
+
+.btn-4 {
+    background-color: rgb(255, 255, 255)!important;
+    color: #06283D!important;
+    border-color:#06283D!important;
+    border-radius: 10px!important;
+    width: 152px;
+    font-weight: 800;
+}
+
+.btn-4:hover {
+    background-color: rgba(255, 255, 255, 0.819)!important;
+    border-color:#06283D!important;
+    border-radius: 10px;
+}
+
+.centro-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.info-2 {
+    display: flex;
+    justify-content:space-between;
+    padding-bottom: 10px;
+}
+
+.modelo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-gap: 15px;
+}
+
+.detalles-fact{
+    background-color: #1CB68ECC;
+    color: #06283D;
+}
+
+.detalles-fact h5{
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.perfil-mot {
+    background-color: #FFF;
+    color: #06283D;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+.icono-mot {
+    font-size: 80px;
+}
+
+.principal {
+    margin-left: auto;
+}
+
+.landing {
+    background-color: #06283D!important;
+    color: #1CB68E!important;
+}
+
+.logo4 {
+    width: 350px;
+}
+
+.motort {
+    display: flex;
+    padding: 200px;
+    justify-content: space-between;
+}
+
+.tam-landing {
+    height: 60px;
+}
+
+.tam-princp {
+    height: 590px;
+}
+
+.texto {
+    font-size: 900;
+    font-weight: 800;
+}
+
+/*  `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .ordenes {
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        width: auto;
+        height: auto;
+    
+    }
+
+    
+}
+
+/*  `md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .ordenes {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+        height: auto;
+    }
+
+    
+}
+
+/*  `lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+    .ordenes {
+        background-color: #9ADACA!important;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+/*  `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .ordenes {
+        background-color: #9ADACA!important;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        width: auto;
+        height: auto;
+    }
+
+}
+
+/*  `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    .ordenes {
+        background-color: #9ADACA!important;
+        color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 3px;
+        width: auto;
+        height: auto;
+    }
+
+}
